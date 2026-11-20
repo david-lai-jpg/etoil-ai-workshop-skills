@@ -8,7 +8,7 @@ description: 找現成的 skill：使用者說出「找現成的 skill」，或�
 照下面的步驟做：
 
 1. 先用一句話講出使用者要找的是哪一種 skill，請使用者確認。
-2. 想想那一行的人平常怎麼稱呼這種工作，用這些說法去搜尋，中文、英文各找一次。
+2. 想想相關行業的人平常怎麼稱呼這種工作，用這些說法去搜尋，中文、英文各找一次。
 3. 先從可信的地方找：
    - Claude 的 Skills 目錄，和 Anthropic 官方的 skill（github.com/anthropics/skills）
    - ChatGPT 的 Skills 頁（公司方案才有），和 OpenAI 官方的 skill（github.com/openai/plugins）
