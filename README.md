@@ -34,23 +34,39 @@ skill 的名字只能用英文，所以在 Claude 的清單上看到的是英文
 
 ## 裝到 Claude 桌面版
 
-Plugins（外掛）只有付費方案才有（Pro、Max、Ultra、Team、Enterprise），用免費版的人請看這一節最後的「Claude 免費版」。Windows 和 Mac 的步驟一樣。Claude 的畫面沒有中文，選單都是英文，照英文字找。
+外掛程式只有付費方案才有（Pro、Max、Ultra、Team、Enterprise），用免費版的人請看這一節最後的「Claude 免費版」。Windows 和 Mac 的步驟一樣。
 
-1. 打開 Claude 桌面版，點左下角自己的名字，再點 Settings（設定）→ Capabilities（功能），打開 Code execution and file creation（建立檔案）的開關。有的版本這個開關叫 Create and edit files（編輯檔案）。這個開關沒開，skill 不會動。
-2. 點左邊選單的 Customize（自訂），再點上面的 Plugins 分頁。沒有 Plugins 這個分頁，就是免費版，請改看下面的「Claude 免費版」。
-3. 點右上角的 Add（新增），再點 Add marketplace（新增市集）。
-4. 在 URL（網址）那一格打 `david-lai-jpg/etoil-ai-workshop-skills`，再按 Sync（同步）。
-5. 點 Discover（探索），找到 Etoil ai workshop skills，按 Add。
-6. 點 Skills（技能）分頁，清單裡會有五個英文名字：ask-first、go-deep、second-opinion、make-a-skill、find-a-skill。
-7. 開一個新對話，照最上面表格「開口這樣說」那一欄打一句，例如「用『需求訪談』，我要＿＿＿＿。」它不會馬上回答，會先照那個 skill 的做法來，像「需求訪談」會先問你問題。
+1. 打開 Claude 桌面版，點左下角自己的名字 →「設定」→「功能」，把「程式碼執行與檔案建立」的開關打開。這個開關沒開，skill 不會動。
+2. 點左邊選單的「自訂」，再點上面的「外掛程式」分頁。沒有「外掛程式」這個分頁，就是免費版，請改看下面的「Claude 免費版」。
+3. 點右上角的「新增」。
+
+接著選一種裝法：從市集裝，或用一個 ZIP 裝。兩種擇一就好，市集加不進來的時候，就用 ZIP。
+
+### 裝法一：從市集裝
+
+1. 選「新增市集」。
+2. 在「網址」那一格打 `david-lai-jpg/etoil-ai-workshop-skills`，再按「同步」。
+3. 同步好之後，找到 Etoil ai workshop skills，按它旁邊的「＋」。
+
+### 裝法二：用一個 ZIP 裝
+
+1. 下載 [`etoil-ai-workshop-skills.zip`](https://github.com/david-lai-jpg/etoil-ai-workshop-skills/releases/latest/download/etoil-ai-workshop-skills.zip)，不要解壓縮。Mac 的 Safari 如果自動解開成資料夾，在資料夾上按右鍵，選「壓縮」。
+2. 回到 Claude，在「新增」裡選「上傳外掛程式」，再選剛下載的 ZIP。畫面會出現「外掛程式已上傳。」
+
+### 裝好以後
+
+1. 點「自訂」裡的 Skills 分頁，清單裡有五個英文名字：ask-first、go-deep、second-opinion、make-a-skill、find-a-skill，就是裝好了。
+2. 開一個新對話，照最上面表格「開口這樣說」那一欄打一句，例如「用『需求訪談』，我要＿＿＿＿。」
+
+它不會馬上回答，會先照那個 skill 的做法來，像「需求訪談」會先問你問題。
 
 如果叫了中文名字，它卻沒反應、直接回答，就開一個新對話，打「/」，從跳出來的清單裡選，或直接打英文名字，例如 /ask-first。
 
-想找別人做好的 skill，到 Customize → Skills → ＋ → Browse skills（瀏覽技能）找。裝之前一樣照「裝之前先看這三條」做。
+想找別人做好的 skill，到「自訂」→ Skills →「＋」→「瀏覽 Skills」找。裝之前一樣照「裝之前先看這三條」做。
 
 ### Claude 免費版
 
-免費版沒有 Plugins，要一個一個裝，五個都要就做五次。五個檔案點檔名就能下載：
+免費版沒有外掛程式，要一個一個裝，五個都要就做五次。五個檔案點檔名就能下載：
 
 - 需求訪談：[`ask-first.zip`](https://github.com/david-lai-jpg/etoil-ai-workshop-skills/releases/latest/download/ask-first.zip)
 - 深入執行：[`go-deep.zip`](https://github.com/david-lai-jpg/etoil-ai-workshop-skills/releases/latest/download/go-deep.zip)
@@ -58,33 +74,46 @@ Plugins（外掛）只有付費方案才有（Pro、Max、Ultra、Team、Enterpr
 - 做一個 skill：[`make-a-skill.zip`](https://github.com/david-lai-jpg/etoil-ai-workshop-skills/releases/latest/download/make-a-skill.zip)
 - 找現成的 skill：[`find-a-skill.zip`](https://github.com/david-lai-jpg/etoil-ai-workshop-skills/releases/latest/download/find-a-skill.zip)
 
-1. 先做上面的第 1 步，把開關打開。
+1. 先照這一節最前面的第 1 步，把「程式碼執行與檔案建立」的開關打開。
 2. 點要裝的檔名，下載 ZIP，不要解壓縮。Mac 的 Safari 如果自動解開成資料夾，在資料夾上按右鍵，選「壓縮」。
-3. 在 Claude 點 Customize → Skills → ＋ → Create skill（建立技能）→ Upload a skill（上傳技能），選剛下載的 ZIP。
-4. 清單上出現英文名字後，確認旁邊的開關是打開的。
+3. 在 Claude 點「自訂」→ Skills →「＋」→「建立 Skill」→「上傳 Skill」，選剛下載的 ZIP。
+4. 清單上出現那個 skill 的英文名字後，把它的開關打開。
 
 ## 裝到 ChatGPT 桌面版
 
 ChatGPT 的一般對話，只有公司方案（Business、Enterprise、Edu、Healthcare）才有 skill，其他方案的一般對話都沒有。想在 ChatGPT 用 skill，就在桌面版切到 Codex。切到 Codex 之後，每一種方案都能用 skill，免費版也可以。ChatGPT 桌面版在 Windows 和 Mac 上都有。
 
-下面的選單名稱照 ChatGPT 繁體中文介面上的字寫，介面是英文的人，括號裡的英文就是你畫面上的字。
-
 1. 打開 ChatGPT 桌面版（電腦上裝的 app，不是瀏覽器裡的網頁），在左邊的側邊欄點 Codex。
-2. 點左下角自己的名字或頭像，點「設定」（Settings），再點左邊那一排「整合」底下的「外掛程式」（Plugins）。
-3. 點右上角的「新增」（Add），再點「新增市集」（Add a marketplace）。
-4. 在「來源」（Source）那一格打 `david-lai-jpg/etoil-ai-workshop-skills`，另外兩格留空白，再按「新增市集」。
-5. 點「市集」（Marketplace）分頁，點 etoil-ai-workshop-skills，再點「五個 AI skill」，按「安裝外掛程式」。
-6. 點「技能」（Skills）分頁，會看到五個英文名字：ask-first、go-deep、second-opinion、make-a-skill、find-a-skill。
-7. 回到左邊側邊欄的 Codex，開一個新對話，照最上面表格「開口這樣說」那一欄打一句。
+2. 在左邊點「外掛程式」。
+3. 點右上角的「新增」。
+
+接著選一種裝法：從市集裝，或用一個 ZIP 裝。兩種擇一就好，市集加不進來的時候，就用 ZIP。
+
+### 裝法一：從市集裝
+
+1. 選「新增市集」。
+2. 在「來源」那一格打 `david-lai-jpg/etoil-ai-workshop-skills`，另外兩格留空白，再按「新增市集」。
+
+### 裝法二：用一個 ZIP 裝
+
+1. 下載 [`etoil-ai-workshop-skills.zip`](https://github.com/david-lai-jpg/etoil-ai-workshop-skills/releases/latest/download/etoil-ai-workshop-skills.zip)，跟 Claude 用的是同一個檔案，不要解壓縮。Mac 的 Safari 如果自動解開成資料夾，在資料夾上按右鍵，選「壓縮」。
+2. 回到 ChatGPT，在「新增」裡選「上傳外掛程式封存檔」，把 ZIP 拖進去，或點選上傳。
+
+### 加進來以後
+
+1. 在「外掛程式」這一頁找到「五個 AI skill」，也可以用上面的「搜尋外掛程式」找。
+2. 點進「五個 AI skill」，按「安裝外掛程式」。
+3. 在左邊點「技能」，會看到五個英文名字：ask-first、go-deep、second-opinion、make-a-skill、find-a-skill。
+4. 回到 Codex，開一個新對話，照最上面表格「開口這樣說」那一欄打一句。
 
 Codex 能開資料夾、改檔案、執行指令，所以它要你允許的時候，看懂了再按。
 
 ### 沒有桌面版的時候
 
-只用手機或網頁版、沒有桌面版的人，用不到 Codex 裡的 skill，可以改用「專案」（Projects）當備案：
+只用手機或網頁版、沒有桌面版的人，用不到 Codex 裡的 skill，可以改用「專案」當備案：
 
 1. 一個 skill 開一個專案，專案名稱用 skill 的中文名，例如「需求訪談」。
-2. 點專案名稱旁邊的「⋯」→「專案設定」（Project settings），找到「指示」（Instructions）。
+2. 點專案名稱旁邊的「⋯」→「專案設定」，找到「指示」。
 3. 打開 `ChatGPT` 資料夾裡同名的 .txt，全部複製後貼進去，再按儲存。
 4. 要用的時候，到那個專案裡開新對話就好，不用叫名字。
 
