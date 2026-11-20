@@ -1,0 +1,20 @@
+{
+  "name": "etoil-ai-workshop-skills",
+  "interface": {
+    "displayName": "五個 AI skill"
+  },
+  "plugins": [
+    {
+      "name": "etoil-ai-workshop-skills",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

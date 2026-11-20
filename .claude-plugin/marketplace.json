@@ -1,0 +1,19 @@
+{
+  "name": "etoil-ai-workshop-skills",
+  "owner": {
+    "name": "David"
+  },
+  "metadata": {
+    "description": "一次裝好這門課的五個 skill，讓 AI 照 SOP 做事"
+  },
+  "plugins": [
+    {
+      "name": "etoil-ai-workshop-skills",
+      "source": "./",
+      "description": "一次裝好這門課的五個 skill，讓 AI 照 SOP 做事",
+      "category": "productivity",
+      "homepage": "https://github.com/david-lai-jpg/etoil-ai-workshop-skills",
+      "repository": "https://github.com/david-lai-jpg/etoil-ai-workshop-skills"
+    }
+  ]
+}

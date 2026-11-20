@@ -1,0 +1,16 @@
+{
+  "name": "etoil-ai-workshop-skills",
+  "version": "1.0.0",
+  "description": "一次裝好這門課的五個 skill，讓 AI 照 SOP 做事",
+  "author": {
+    "name": "David",
+    "url": "https://github.com/david-lai-jpg"
+  },
+  "homepage": "https://github.com/david-lai-jpg/etoil-ai-workshop-skills",
+  "repository": "https://github.com/david-lai-jpg/etoil-ai-workshop-skills",
+  "keywords": [
+    "clinic",
+    "zh-TW",
+    "skills"
+  ]
+}

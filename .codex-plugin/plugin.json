@@ -1,0 +1,27 @@
+{
+  "name": "etoil-ai-workshop-skills",
+  "version": "1.0.0",
+  "description": "一次裝好這門課的五個 skill，讓 AI 照 SOP 做事",
+  "author": {
+    "name": "David",
+    "url": "https://github.com/david-lai-jpg"
+  },
+  "homepage": "https://github.com/david-lai-jpg/etoil-ai-workshop-skills",
+  "repository": "https://github.com/david-lai-jpg/etoil-ai-workshop-skills",
+  "keywords": [
+    "clinic",
+    "zh-TW",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "五個 AI skill",
+    "shortDescription": "一次裝好這門課的五個 skill，讓 AI 照 SOP 做事",
+    "longDescription": "包含需求訪談、深入執行、對立審查、做一個 skill、找現成的 skill。這五個 skill 教的是做事的方法，不挑是什麼事。要叫它的名字才會出來。",
+    "developerName": "David",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ]
+  }
+}
